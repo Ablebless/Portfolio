@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f0f2f5;
+    color: #333;
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background: #1d3557;
+    color: white;
+    min-height: 100vh;
+    padding: 2rem 1rem;
+    position: fixed;
+  }
+  
+  .sidebar h2 {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .sidebar nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 0.75rem 1rem;
+    border-radius: 5px;
+    margin: 0.5rem 0;
+  }
+  
+  .sidebar nav a:hover {
+    background: #457b9d;
+  }
+  
+  .content {
+    margin-left: 260px;
+    padding: 2rem;
+    width: 100%;
+  }
+  
+  header {
+    background: #a8dadc;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .profile-pic {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #1d3557;
+    margin-bottom: 1rem;
+  }
+  
+  section {
+    background: white;
+    margin-top: 2rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  }
+  
+  h2 {
+    color: #1d3557;
+    margin-bottom: 1rem;
+  }
+  
+  ul {
+    list-style-type: square;
+    margin-left: 1.5rem;
+  }
+  
+  .gallery {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+  }
+  
+  .gallery img {
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 2rem;
+    color: #555;
+  }
+  
+  button {
+    background: #1d3557;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
